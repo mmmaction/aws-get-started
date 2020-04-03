@@ -323,6 +323,17 @@ Depending on the chosen Elasticsearch config and the used policy access to Kiban
 - Now we can defien our lambda code
   - As a starting point checkout <https://github.com/aws-samples/amazon-elasticsearch-lambda-samples/blob/master/src/kinesis_lambda_es.js>
 
+### 6. Create API
+
+Define your API using Swagger editor for instance: <https://swagger.io/tools/swagger-editor/>
+
+Lets simply start with a Read operation for our simulation data.
+Go to AWS Api Gateway sercice and define a new endpoint.
+
+### 7. Test the API
+
+I recommend using postman <https://www.postman.com/> (or curl if you prefer) for testing the API by sending API requests.
+
 ## Varia
 
 ### Cloud Native Computing Foundation
